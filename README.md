@@ -38,8 +38,3 @@ The interface is intuitive, featuring a dynamic canvas for graph rendering, inte
 
 ---
 
-## How to Use
-
-1. Clone or download the repository:
-   ```bash
-   git clone https://github.com/your-username/interactive-ucs-visualization.git
