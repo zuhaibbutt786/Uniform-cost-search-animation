@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+footer {
+    padding: 20px;
+    background-color: #f7f3f3;
+    color: rgb(10, 10, 10);
+    text-align: left; /* Align content to the left */
+}
+
+footer p {
+    margin: 0 0 10px 0; /* Add spacing between text and links */
+    font-size: 1.2rem;
+}
+
+#social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Arrange links vertically */
+    gap: 10px;
+}
+
+#social-links li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+#social-links li a:hover {
+    color: #FFD700; /* Highlight color on hover */
+}
+
+footer i {
+    margin-right: 8px; /* Add spacing between icon and text */
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+#graph-container {
+    position: relative;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#priority-queue {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#queueList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#queueList li {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-weight: bold;
+}
